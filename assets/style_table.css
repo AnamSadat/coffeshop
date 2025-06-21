@@ -1,0 +1,65 @@
+table.table {
+    border: 1px solid #676565;
+    border-collapse:collapse;
+    border-spacing: 0;
+    width: 600px;
+}
+
+table.table thead tr th,
+table.table tbody tr td {
+    border: 1px solid #676565;
+    padding: 10px;
+}
+
+table.table tbody tr td:first-child {
+    text-align: center;
+    width: 30px;
+}
+
+table.table tbody tr td:last-child {
+    text-align: center;
+}
+
+a.aksi {
+    color: #fff;
+    padding: 7px;
+    border-radius: 7px;
+    margin-right: 2px;
+}
+
+.tambah {
+    background-color: #0D6EFD;
+}
+
+.edit {
+    background-color: #198754;
+}
+
+.hapus {
+    background-color: #DC3545;
+}
+
+input[type=text],
+input[type=number],
+select {
+    padding: 7px;
+    border: 1px solid #343A40;
+    border-radius: 7px;
+    outline: none;
+}
+
+button[type=submit] {
+    padding: 7px;
+    width: 192px;
+    border-radius: 7px;
+    border: 1px solid #0D6EFD;
+    background-color: #0D6EFD;
+    color: #fff;
+    font-weight: bold;
+}
+
+button[type=submit]:hover {
+    cursor: pointer;
+    border: 1px solid #0b5cd4;
+    background-color: #0b5cd4;
+}
